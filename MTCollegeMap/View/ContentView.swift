@@ -18,8 +18,9 @@ struct ContentView: View {
     var body: some View {
         Map(position: $camera) {
             ForEach(collegeManager.colleges, id: \.name) { college in
+                
                 Marker(college.name, systemImage: "graduationcap.fill", coordinate: CLLocationCoordinate2D(latitude: college.latitude, longitude: college.longitude))
-                    .tint(Color(college.mainColor))
+                    .tint(Color(red: college.mainColor[0], green: college.mainColor[1], blue: college.mainColor[2]))
             }
         }
         .onAppear {

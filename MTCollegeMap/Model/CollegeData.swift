@@ -15,7 +15,7 @@ struct CollegeData: Codable {
     let foundedYear: Int
     let numberOfStudents: Int
     let mascot: String
-    let mainColor: String
+    let mainColor: [Double]
     let division: String
     let degrees: [Degree]
     
