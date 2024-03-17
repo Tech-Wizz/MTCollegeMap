@@ -9,32 +9,26 @@ import SwiftUI
 import MapKit
 
 struct ContentView: View {
+    @StateObject private var collegeManager = CollegeManager()
+    @State private var camera: MapCameraPosition = .automatic
     
-    let capital = CLLocationCoordinate2D(latitude: 46.595805, longitude: -112.027031)
-    
-    let cathedral = CLLocationCoordinate2D(latitude: 46.5901472, longitude: -112.0325417)
-    
-    let college = CLLocationCoordinate2D(latitude: 46.6008333, longitude: -112.0386111)
-    
-    @State var camera: MapCameraPosition = .automatic
-    
+    private let capital = CLLocationCoordinate2D(latitude: 46.595805, longitude: -112.027031)
+    private let collegeLocation = CLLocationCoordinate2D(latitude: 46.6008333, longitude: -112.0386111)
+
     var body: some View {
         Map(position: $camera) {
-            Marker("Montana State Capital", systemImage: "building.columns", coordinate: capital)
-                .tint(.blue)
-            Marker("Carroll Colege", systemImage: "graduationcap", coordinate: college)
-                .tint(.purple)
-            Annotation("Cathedral", coordinate: cathedral) {
-                Image(systemName: "book.closed")
-                    .foregroundStyle(.white)
-                    .padding()
-                    .background(.orange)
+            ForEach(collegeManager.colleges, id: \.name) { college in
+                
+                Marker(college.name, systemImage: "graduationcap.fill", coordinate: CLLocationCoordinate2D(latitude: college.latitude, longitude: college.longitude))
+                    .tint(Color(red: college.mainColor[0], green: college.mainColor[1], blue: college.mainColor[2]))
             }
-
+        }
+        .onAppear {
+            collegeManager.fetchColleges()
         }
         .safeAreaInset(edge: .bottom) {
-            HStack{
-                Button{
+            HStack {
+                Button {
                     camera = .region(
                         MKCoordinateRegion(
                             center: capital,
@@ -43,10 +37,10 @@ struct ContentView: View {
                 } label: {
                     Text("Capital")
                 }
-                Button{
+                Button {
                     camera = .region(
                         MKCoordinateRegion(
-                            center: college,
+                            center: collegeLocation,
                             latitudinalMeters: 200,
                             longitudinalMeters: 200))
                 } label: {
@@ -57,9 +51,10 @@ struct ContentView: View {
             .padding(.top)
             .background(.thinMaterial)
         }
-        .mapStyle(.imagery)
+        .mapStyle(.standard)
     }
 }
+
 
 #Preview {
     ContentView()

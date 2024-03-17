@@ -6,47 +6,23 @@
 //
 
 import Foundation
-import CoreLocation
-let apiID = "" //Enter api ID here
+import Combine
 
-protocol CollegeManagerDelegate {
-    func didUpdateColleges(_ collegeManager: CollegeManager, colleges: [CollegeData])
-    func didFailWithError(error: Error)
-}
-
-struct CollegeManager {
-    let collegeURL = "https://www.kruizechristensen.com/data/college.json"
+class CollegeManager: ObservableObject {
+    let collegeURL = Bundle.main.url(forResource: "college", withExtension: "json")!
     
-    var delegate: CollegeManagerDelegate?
+    @Published var colleges: [CollegeData] = []
+    @Published var error: Error?
     
     func fetchColleges() {
-        if let url = URL(string: collegeURL){
-            let session = URLSession(configuration: .default)
-            let task = session.dataTask(with: url) { data, response, error in
-                if error != nil {
-                    self.delegate?.didFailWithError(error: error!)
-                    return
-                }
-                
-                if let safeData = data {
-                    if let colleges = self.parseJSON(safeData) {
-                        self.delegate?.didUpdateColleges(self, colleges: colleges)
-                    }
-                }
-            }
-            task.resume()
-        }
-    }
-    
-    func parseJSON(_ collegeData: Data) -> [CollegeData]? {
-        let decoder = JSONDecoder()
         do {
-            let colleges = try decoder.decode([CollegeData].self, from: collegeData)
-            return colleges
+            let collegeData = try Data(contentsOf: collegeURL)
+            let decoder = JSONDecoder()
+            let decodedData = try decoder.decode([String: [CollegeData]].self, from: collegeData)
+            self.colleges = decodedData["colleges"] ?? []
         } catch {
-            delegate?.didFailWithError(error: error)
-            return nil
+            self.error = error
+            print("Error decoding JSON:", error)
         }
     }
 }
-

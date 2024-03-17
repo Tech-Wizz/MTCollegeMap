@@ -6,11 +6,23 @@
 //
 
 import Foundation
-import CoreLocation
 
-struct CollegeData: Decodable {
+struct CollegeData: Codable {
     let name: String
-    let color: String
-    let latitude: CLLocationDegrees
-    let longitude: CLLocationDegrees
+    let city: String
+    let latitude: Double
+    let longitude: Double
+    let foundedYear: Int
+    let numberOfStudents: Int
+    let mascot: String
+    let mainColor: [Double]
+    let division: String
+    let degrees: [Degree]
+    
+    struct Degree: Codable {
+        let name: String
+        let category: String
+        let yearsToComplete: Int
+    }
 }
+

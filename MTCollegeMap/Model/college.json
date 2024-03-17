@@ -1,0 +1,211 @@
+{
+  "colleges": [
+    {
+      "name": "Montana State University",
+      "city": "Bozeman",
+      "latitude": 45.6770,
+      "longitude": -111.0429,
+      "foundedYear": 1893,
+      "numberOfStudents": 16688,
+      "mascot": "Champ",
+      "mainColor": [1.00, 0.80, 0.02],
+      "division": "NCAA Division I",
+      "degrees": [
+        {
+          "name": "Bachelor of Business Administration",
+          "category": "Business",
+          "yearsToComplete": 4
+        },
+        {
+          "name": "Bachelor of Science in Mechanical Engineering",
+          "category": "Engineering",
+          "yearsToComplete": 4
+        }
+      ]
+    },
+    {
+      "name": "University of Montana",
+      "city": "Missoula",
+      "latitude": 46.8600,
+      "longitude": -113.9840,
+      "foundedYear": 1893,
+      "numberOfStudents": 10689,
+      "mascot": "Monte",
+      "mainColor": [0.44, 0.00, 0.18],
+      "division": "NCAA Division I",
+      "degrees": [
+        {
+          "name": "Bachelor of Science in Computer Science",
+          "category": "Science & Technology",
+          "yearsToComplete": 4
+        },
+        {
+          "name": "Bachelor of Arts in English",
+          "category": "Humanities",
+          "yearsToComplete": 4
+        }
+      ]
+    },
+    {
+      "name": "Montana Tech",
+      "city": "Butte",
+      "latitude": 45.9961,
+      "longitude": -112.5333,
+      "foundedYear": 1889,
+      "numberOfStudents": 2680,
+      "mascot": "Orediggers",
+      "mainColor": [0.19, 0.33, 0.22],
+      "division": "NAIA",
+      "degrees": [
+        {
+          "name": "Bachelor of Science in Mining Engineering",
+          "category": "Engineering",
+          "yearsToComplete": 4
+        },
+        {
+          "name": "Bachelor of Science in Nursing",
+          "category": "Health Sciences",
+          "yearsToComplete": 4
+        }
+      ]
+    },
+    {
+      "name": "Carroll College",
+      "city": "Helena",
+      "latitude": 46.5958,
+      "longitude": -112.0361,
+      "foundedYear": 1909,
+      "numberOfStudents": 1461,
+      "mascot": "Saints",
+      "mainColor": [0.20, 0.16, 0.53],
+      "division": "NAIA",
+      "degrees": [
+        {
+          "name": "Bachelor of Arts in Psychology",
+          "category": "Social Sciences",
+          "yearsToComplete": 4
+        },
+        {
+          "name": "Bachelor of Science in Biology",
+          "category": "Science & Technology",
+          "yearsToComplete": 4
+        }
+      ]
+    },
+    {
+      "name": "University of Montana Western",
+      "city": "Dillon",
+      "latitude": 45.2153,
+      "longitude": -112.6838,
+      "foundedYear": 1893,
+      "numberOfStudents": 1500,
+      "mascot": "Bulldogs",
+      "mainColor": [0.0, 0.0, 1.0],
+      "division": "NAIA",
+      "degrees": [
+        {
+          "name": "Bachelor of Science in Education",
+          "category": "Education",
+          "yearsToComplete": 4
+        },
+        {
+          "name": "Bachelor of Arts in English",
+          "category": "Humanities",
+          "yearsToComplete": 4
+        }
+      ]
+    },
+    {
+      "name": "Montana State University Northern",
+      "city": "Havre",
+      "latitude": 48.5485,
+      "longitude": -109.6787,
+      "foundedYear": 1929,
+      "numberOfStudents": 1300,
+      "mascot": "Lights",
+      "mainColor": [1.0, 0.76, 0.03],
+      "division": "NAIA",
+      "degrees": [
+        {
+          "name": "Bachelor of Science in Engineering Technology",
+          "category": "Engineering",
+          "yearsToComplete": 4
+        },
+        {
+          "name": "Bachelor of Science in Nursing",
+          "category": "Health Sciences",
+          "yearsToComplete": 4
+        }
+      ]
+    },
+    {
+      "name": "Providence University",
+      "city": "Great Falls",
+      "latitude": 47.5074,
+      "longitude": -111.2994,
+      "foundedYear": 1952,
+      "numberOfStudents": 1200,
+      "mascot": "Lions",
+      "mainColor": [0.8, 0.2, 0.1],
+      "division": "NAIA",
+      "degrees": [
+        {
+          "name": "Bachelor of Arts in Communication",
+          "category": "Humanities",
+          "yearsToComplete": 4
+        },
+        {
+          "name": "Bachelor of Science in Nursing",
+          "category": "Health Sciences",
+          "yearsToComplete": 4
+        }
+      ]
+    },
+    {
+      "name": "Montana State University Great Falls",
+      "city": "Great Falls",
+      "latitude": 47.5094,
+      "longitude": -111.2996,
+      "foundedYear": 1969,
+      "numberOfStudents": 2400,
+      "mascot": "Argos",
+      "mainColor": [0.2, 0.56, 0.82],
+      "division": "NAIA",
+      "degrees": [
+        {
+          "name": "Associate of Arts in General Studies",
+          "category": "Liberal Arts",
+          "yearsToComplete": 2
+        },
+        {
+          "name": "Associate of Science in Nursing",
+          "category": "Health Sciences",
+          "yearsToComplete": 2
+        }
+      ]
+    },
+    {
+      "name": "Montana State University Billings",
+      "city": "Billings",
+      "latitude": 45.7833,
+      "longitude": -108.5007,
+      "foundedYear": 1927,
+      "numberOfStudents": 4800,
+      "mascot": "Yellowjackets",
+      "mainColor": [1.0, 0.8, 0.0],
+      "division": "NCAA Division II",
+      "degrees": [
+        {
+          "name": "Bachelor of Science in Accounting",
+          "category": "Business",
+          "yearsToComplete": 4
+        },
+        {
+          "name": "Bachelor of Arts in English",
+          "category": "Humanities",
+          "yearsToComplete": 4
+        }
+      ]
+    }
+  ]
+}
