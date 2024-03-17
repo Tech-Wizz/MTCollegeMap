@@ -1,0 +1,96 @@
+{
+  "colleges": [
+    {
+      "name": "Montana State University",
+      "city": "Bozeman",
+      "latitude": 45.6770,
+      "longitude": -111.0429,
+      "foundedYear": 1893,
+      "numberOfStudents": 16688,
+      "mascot": "Champ",
+      "mainColor": "yellow",
+      "division": "NCAA Division I",
+      "degrees": [
+        {
+          "name": "Bachelor of Business Administration",
+          "category": "Business",
+          "yearsToComplete": 4
+        },
+        {
+          "name": "Bachelor of Science in Mechanical Engineering",
+          "category": "Engineering",
+          "yearsToComplete": 4
+        }
+      ]
+    },
+    {
+      "name": "University of Montana",
+      "city": "Missoula",
+      "latitude": 46.8600,
+      "longitude": -113.9840,
+      "foundedYear": 1893,
+      "numberOfStudents": 10689,
+      "mascot": "Monte",
+      "mainColor": "red",
+      "division": "NCAA Division I",
+      "degrees": [
+        {
+          "name": "Bachelor of Science in Computer Science",
+          "category": "Science & Technology",
+          "yearsToComplete": 4
+        },
+        {
+          "name": "Bachelor of Arts in English",
+          "category": "Humanities",
+          "yearsToComplete": 4
+        }
+      ]
+    },
+    {
+      "name": "Montana Tech",
+      "city": "Butte",
+      "latitude": 45.9961,
+      "longitude": -112.5333,
+      "foundedYear": 1889,
+      "numberOfStudents": 2680,
+      "mascot": "Orediggers",
+      "mainColor": "green",
+      "division": "NAIA",
+      "degrees": [
+        {
+          "name": "Bachelor of Science in Mining Engineering",
+          "category": "Engineering",
+          "yearsToComplete": 4
+        },
+        {
+          "name": "Bachelor of Science in Nursing",
+          "category": "Health Sciences",
+          "yearsToComplete": 4
+        }
+      ]
+    },
+    {
+      "name": "Carroll College",
+      "city": "Helena",
+      "latitude": 46.5958,
+      "longitude": -112.0361,
+      "foundedYear": 1909,
+      "numberOfStudents": 1461,
+      "mascot": "Saints",
+      "mainColor": "purple",
+      "division": "NAIA",
+      "degrees": [
+        {
+          "name": "Bachelor of Arts in Psychology",
+          "category": "Social Sciences",
+          "yearsToComplete": 4
+        },
+        {
+          "name": "Bachelor of Science in Biology",
+          "category": "Science & Technology",
+          "yearsToComplete": 4
+        }
+      ]
+    }
+  ]
+}
