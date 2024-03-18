@@ -25,12 +25,26 @@ struct ContentView: View {
                 collegeManager.fetchColleges()
             }
             
-            Picker("Select Location", selection: $selectedCollegeIndex) {
-                ForEach(collegeManager.colleges.indices, id: \.self) { index in
-                        let college = collegeManager.colleges[index]
-                        Text(college.name).tag(index)
+            Picker("Select Location", selection: Binding(
+                get: { selectedCollegeIndex },
+                set: { newIndex in
+                    selectedCollegeIndex = newIndex
+                    if newIndex == 0 {
+                        // Reset the camera to its default position
+                        camera = .automatic
+                    } else {
+                        let selectedCollege = collegeManager.colleges[newIndex - 1] // Adjust index to skip "All"
+                        updateCamera(lat: selectedCollege.latitude, lon: selectedCollege.longitude)
                     }
+                }
+            )) {
+                Text("All").tag(0) // Tag "All" with index 0
+                ForEach(collegeManager.colleges.indices, id: \.self) { index in
+                    let college = collegeManager.colleges[index]
+                    Text(college.name).tag(index + 1) // Adjust index to skip "All"
+                }
             }
+
             .pickerStyle(WheelPickerStyle())
             .frame(height: 50) // Set the desired height for the picker
             .padding()
@@ -42,6 +56,17 @@ struct ContentView: View {
         }
         .mapStyle(.standard)
     }
+    
+     func updateCamera(lat: Double, lon: Double) {
+            camera = .region(
+                MKCoordinateRegion(
+                    center: CLLocationCoordinate2D(latitude: lat, longitude: lon),
+                    latitudinalMeters: 200, // Adjust the desired zoom level
+                    longitudinalMeters: 200 // Adjust the desired zoom level
+                )
+            )
+        }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
