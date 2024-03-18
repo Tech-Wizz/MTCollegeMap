@@ -9,6 +9,7 @@ import Foundation
 
 struct CollegeData: Codable {
     let name: String
+    let acronym: String
     let city: String
     let latitude: Double
     let longitude: Double

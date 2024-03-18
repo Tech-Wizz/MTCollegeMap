@@ -2,6 +2,7 @@
   "colleges": [
     {
       "name": "Montana State University",
+      "acronym": "MSU",
       "city": "Bozeman",
       "latitude": 45.6770,
       "longitude": -111.0429,
@@ -25,6 +26,7 @@
     },
     {
       "name": "University of Montana",
+      "acronym": "UM",
       "city": "Missoula",
       "latitude": 46.8600,
       "longitude": -113.9840,
@@ -48,6 +50,7 @@
     },
     {
       "name": "Montana Tech",
+      "acronym": "MTech",
       "city": "Butte",
       "latitude": 45.9961,
       "longitude": -112.5333,
@@ -71,6 +74,7 @@
     },
     {
       "name": "Carroll College",
+      "acronym": "CC",
       "city": "Helena",
       "latitude": 46.5958,
       "longitude": -112.0361,
@@ -94,13 +98,14 @@
     },
     {
       "name": "University of Montana Western",
+      "acronym": "UMW",
       "city": "Dillon",
       "latitude": 45.2153,
       "longitude": -112.6838,
       "foundedYear": 1893,
       "numberOfStudents": 1500,
       "mascot": "Bulldogs",
-      "mainColor": [0.0, 0.0, 1.0],
+      "mainColor": [0.80, 0.17, 0.19],
       "division": "NAIA",
       "degrees": [
         {
@@ -117,13 +122,14 @@
     },
     {
       "name": "Montana State University Northern",
+      "acronym": "MSUN",
       "city": "Havre",
       "latitude": 48.5485,
       "longitude": -109.6787,
       "foundedYear": 1929,
       "numberOfStudents": 1300,
       "mascot": "Lights",
-      "mainColor": [1.0, 0.76, 0.03],
+      "mainColor": [0.45, 0.14, 0.15],
       "division": "NAIA",
       "degrees": [
         {
@@ -140,13 +146,14 @@
     },
     {
       "name": "Providence University",
+      "acronym": "PU",
       "city": "Great Falls",
       "latitude": 47.5074,
       "longitude": -111.2994,
       "foundedYear": 1952,
       "numberOfStudents": 1200,
       "mascot": "Lions",
-      "mainColor": [0.8, 0.2, 0.1],
+      "mainColor": [0.00, 0.55, 0.01],
       "division": "NAIA",
       "degrees": [
         {
@@ -163,13 +170,14 @@
     },
     {
       "name": "Montana State University Great Falls",
+      "acronym": "MSU-GF",
       "city": "Great Falls",
       "latitude": 47.5094,
       "longitude": -111.2996,
       "foundedYear": 1969,
       "numberOfStudents": 2400,
       "mascot": "Argos",
-      "mainColor": [0.2, 0.56, 0.82],
+      "mainColor": [1.00, 0.80, 0.02],
       "division": "NAIA",
       "degrees": [
         {
@@ -186,13 +194,14 @@
     },
     {
       "name": "Montana State University Billings",
+      "acronym": "MSU-B",
       "city": "Billings",
       "latitude": 45.7833,
       "longitude": -108.5007,
       "foundedYear": 1927,
       "numberOfStudents": 4800,
       "mascot": "Yellowjackets",
-      "mainColor": [1.0, 0.8, 0.0],
+      "mainColor": [0.94, 0.70, 0.06],
       "division": "NCAA Division II",
       "degrees": [
         {
