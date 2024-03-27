@@ -22,7 +22,8 @@
           "category": "Engineering",
           "yearsToComplete": 4
         }
-      ]
+      ],
+      "tribal": false
     },
     {
       "name": "University of Montana",
@@ -46,175 +47,306 @@
           "category": "Humanities",
           "yearsToComplete": 4
         }
-      ]
+      ],
+      "tribal": false
     },
     {
-      "name": "Montana Tech",
-      "acronym": "MTech",
-      "city": "Butte",
-      "latitude": 45.9961,
-      "longitude": -112.5333,
-      "foundedYear": 1889,
-      "numberOfStudents": 2680,
-      "mascot": "Orediggers",
-      "mainColor": [0.19, 0.33, 0.22],
+      "name": "Dawson Community College",
+      "acronym": "DCC",
+      "city": "Glendive",
+      "latitude": 47.0972,
+      "longitude": -104.7119,
+      "foundedYear": 1940,
+      "numberOfStudents": 449,
+      "mascot": "Buccaneers",
+      "mainColor": [0.15, 0.15, 0.15],
+      "division": "NJCAA",
+      "degrees": [
+        {
+          "name": "Associate of Science",
+          "category": "General",
+          "yearsToComplete": 2
+        },
+        {
+          "name": "Associate of Arts",
+          "category": "General",
+          "yearsToComplete": 2
+        }
+      ],
+      "tribal": false
+    },
+    {
+      "name": "Flathead Valley Community College",
+      "acronym": "FVCC",
+      "city": "Kalispell",
+      "latitude": 48.1956,
+      "longitude": -114.3139,
+      "foundedYear": 1967,
+      "numberOfStudents": 2415,
+      "mascot": "Eagles",
+      "mainColor": [0.00, 0.20, 0.40],
+      "division": "NJCAA",
+      "degrees": [
+        {
+          "name": "Associate of Arts",
+          "category": "General",
+          "yearsToComplete": 2
+        },
+        {
+          "name": "Associate of Science",
+          "category": "General",
+          "yearsToComplete": 2
+        }
+      ],
+      "tribal": false
+    },
+    {
+      "name": "Miles Community College",
+      "acronym": "MCC",
+      "city": "Miles City",
+      "latitude": 46.4064,
+      "longitude": -105.8417,
+      "foundedYear": 1939,
+      "numberOfStudents": 426,
+      "mascot": "Pioneers",
+      "mainColor": [0.75, 0.00, 0.00],
+      "division": "NJCAA",
+      "degrees": [
+        {
+          "name": "Associate of Arts",
+          "category": "General",
+          "yearsToComplete": 2
+        },
+        {
+          "name": "Associate of Science",
+          "category": "General",
+          "yearsToComplete": 2
+        }
+      ],
+      "tribal": false
+    },
+    {
+      "name": "Rocky Mountain College",
+      "acronym": "RMC",
+      "city": "Billings",
+      "latitude": 45.8018,
+      "longitude": -108.5176,
+      "foundedYear": 1878,
+      "numberOfStudents": 1110,
+      "mascot": "Battlin' Bears",
+      "mainColor": [0.78, 0.19, 0.11],
       "division": "NAIA",
       "degrees": [
         {
-          "name": "Bachelor of Science in Mining Engineering",
-          "category": "Engineering",
+          "name": "Bachelor of Arts",
+          "category": "General",
           "yearsToComplete": 4
         },
         {
-          "name": "Bachelor of Science in Nursing",
-          "category": "Health Sciences",
+          "name": "Bachelor of Science",
+          "category": "General",
           "yearsToComplete": 4
         }
-      ]
+      ],
+      "tribal": false
     },
     {
-      "name": "Carroll College",
-      "acronym": "CC",
-      "city": "Helena",
-      "latitude": 46.5958,
-      "longitude": -112.0361,
-      "foundedYear": 1909,
-      "numberOfStudents": 1461,
-      "mascot": "Saints",
-      "mainColor": [0.20, 0.16, 0.53],
-      "division": "NAIA",
-      "degrees": [
-        {
-          "name": "Bachelor of Arts in Psychology",
-          "category": "Social Sciences",
-          "yearsToComplete": 4
-        },
-        {
-          "name": "Bachelor of Science in Biology",
-          "category": "Science & Technology",
-          "yearsToComplete": 4
-        }
-      ]
-    },
-    {
-      "name": "University of Montana Western",
-      "acronym": "UMW",
-      "city": "Dillon",
-      "latitude": 45.2153,
-      "longitude": -112.6838,
-      "foundedYear": 1893,
-      "numberOfStudents": 1500,
-      "mascot": "Bulldogs",
-      "mainColor": [0.80, 0.17, 0.19],
-      "division": "NAIA",
-      "degrees": [
-        {
-          "name": "Bachelor of Science in Education",
-          "category": "Education",
-          "yearsToComplete": 4
-        },
-        {
-          "name": "Bachelor of Arts in English",
-          "category": "Humanities",
-          "yearsToComplete": 4
-        }
-      ]
-    },
-    {
-      "name": "Montana State University Northern",
-      "acronym": "MSUN",
-      "city": "Havre",
-      "latitude": 48.5485,
-      "longitude": -109.6787,
-      "foundedYear": 1929,
-      "numberOfStudents": 1300,
-      "mascot": "Lights",
-      "mainColor": [0.45, 0.14, 0.15],
-      "division": "NAIA",
-      "degrees": [
-        {
-          "name": "Bachelor of Science in Engineering Technology",
-          "category": "Engineering",
-          "yearsToComplete": 4
-        },
-        {
-          "name": "Bachelor of Science in Nursing",
-          "category": "Health Sciences",
-          "yearsToComplete": 4
-        }
-      ]
-    },
-    {
-      "name": "Providence University",
-      "acronym": "PU",
+      "name": "Apollos University",
+      "acronym": "AU",
       "city": "Great Falls",
       "latitude": 47.5074,
-      "longitude": -111.2994,
-      "foundedYear": 1952,
-      "numberOfStudents": 1200,
-      "mascot": "Lions",
-      "mainColor": [0.00, 0.55, 0.01],
-      "division": "NAIA",
-      "degrees": [
-        {
-          "name": "Bachelor of Arts in Communication",
-          "category": "Humanities",
-          "yearsToComplete": 4
-        },
-        {
-          "name": "Bachelor of Science in Nursing",
-          "category": "Health Sciences",
-          "yearsToComplete": 4
-        }
-      ]
+      "longitude":
+      -111.2994,
+      "foundedYear": 2004,
+      "numberOfStudents": 200,
+      "mascot": "N/A",
+      "mainColor": [0.12, 0.56, 1.00],
+      "division": "N/A",
+      "degrees": [],
+      "tribal": false
     },
     {
-      "name": "Montana State University Great Falls",
-      "acronym": "MSU-GF",
-      "city": "Great Falls",
-      "latitude": 47.5094,
-      "longitude": -111.2996,
-      "foundedYear": 1969,
-      "numberOfStudents": 2400,
-      "mascot": "Argos",
-      "mainColor": [1.00, 0.80, 0.02],
-      "division": "NAIA",
-      "degrees": [
-        {
-          "name": "Associate of Arts in General Studies",
-          "category": "Liberal Arts",
-          "yearsToComplete": 2
-        },
-        {
-          "name": "Associate of Science in Nursing",
-          "category": "Health Sciences",
-          "yearsToComplete": 2
-        }
-      ]
-    },
-    {
-      "name": "Montana State University Billings",
-      "acronym": "MSU-B",
+      "name": "City College",
+      "acronym": "CC",
       "city": "Billings",
       "latitude": 45.7833,
       "longitude": -108.5007,
-      "foundedYear": 1927,
-      "numberOfStudents": 4800,
-      "mascot": "Yellowjackets",
-      "mainColor": [0.94, 0.70, 0.06],
-      "division": "NCAA Division II",
-      "degrees": [
-        {
-          "name": "Bachelor of Science in Accounting",
-          "category": "Business",
-          "yearsToComplete": 4
-        },
-        {
-          "name": "Bachelor of Arts in English",
-          "category": "Humanities",
-          "yearsToComplete": 4
-        }
-      ]
+      "foundedYear": 1969,
+      "numberOfStudents": 2500,
+      "mascot": "N/A",
+      "mainColor": [0.50, 0.50, 0.50],
+      "division": "N/A",
+      "degrees": [],
+      "tribal": false
+    },
+    {
+      "name": "Gallatin College",
+      "acronym": "GC",
+      "city": "Bozeman",
+      "latitude": 45.6770,
+      "longitude": -111.0429,
+      "foundedYear": 2010,
+      "numberOfStudents": 800,
+      "mascot": "N/A",
+      "mainColor": [0.67, 0.67, 0.67],
+      "division": "N/A",
+      "degrees": [],
+      "tribal": false
+    },
+    {
+      "name": "Missoula College",
+      "acronym": "MC",
+      "city": "Missoula",
+      "latitude": 46.8600,
+      "longitude": -113.9840,
+      "foundedYear": 1993,
+      "numberOfStudents": 1200,
+      "mascot": "N/A",
+      "mainColor": [0.80, 0.80, 0.80],
+      "division": "N/A",
+      "degrees": [],
+      "tribal": false
+    },
+    {
+      "name": "Helena College",
+      "acronym": "HC",
+      "city": "Helena",
+      "latitude": 46.5927,
+      "longitude": -112.0361,
+      "foundedYear": 1939,
+      "numberOfStudents": 1100,
+      "mascot": "N/A",
+      "mainColor": [0.33, 0.33, 0.33],
+      "division": "N/A",
+      "degrees": [],
+      "tribal": false
+    },
+    {
+      "name": "Highlands College",
+      "acronym": "HC",
+      "city": "Butte",
+      "latitude": 45.9961,
+      "longitude": -112.5333,
+      "foundedYear": 1975,
+      "numberOfStudents": 1200,
+      "mascot": "N/A",
+      "mainColor": [0.67, 0.67, 0.67],
+      "division": "N/A",
+      "degrees": [],
+      "tribal": false
+    },
+    {
+      "name": "Bitterroot College",
+      "acronym": "BC",
+      "city": "Hamilton",
+      "latitude": 46.2500,
+      "longitude": -114.1586,
+      "foundedYear": 2010,
+      "numberOfStudents": 200,
+      "mascot": "N/A",
+      "mainColor": [0.40, 0.40, 0.40],
+      "division": "N/A",
+      "degrees": [],
+      "tribal": false
+    },
+    {
+      "name": "Aaniih Nakoda College",
+      "acronym": "ANC",
+      "city": "Harlem",
+      "latitude": 48.5293,
+      "longitude": -108.7713,
+      "foundedYear": 1984,
+      "numberOfStudents": 200,
+      "mascot": "N/A",
+      "mainColor": [0.20, 0.20, 0.20],
+      "division": "N/A",
+      "degrees": [],
+      "tribal": true
+    },
+    {
+      "name": "Blackfeet Community College",
+      "acronym": "BCC",
+      "city": "Browning",
+      "latitude": 48.5613,
+      "longitude": -113.0022,
+      "foundedYear": 1974,
+      "numberOfStudents": 200,
+      "mascot": "N/A",
+      "mainColor": [0.60, 0.60, 0.60],
+      "division": "N/A",
+      "degrees": [],
+      "tribal": true
+    },
+    {
+      "name": "Chief Dull Knife College",
+      "acronym": "CDKC",
+      "city": "Lame Deer",
+      "latitude": 45.6191,
+      "longitude": -106.6860,
+      "foundedYear": 1975,
+      "numberOfStudents": 200,
+      "mascot": "N/A",
+      "mainColor": [0.15, 0.15, 0.15],
+      "division": "N/A",
+      "degrees": [],
+      "tribal": true
+    },
+    {
+      "name": "Fort Peck Community College",
+      "acronym": "FPCC",
+      "city": "Poplar",
+      "latitude": 48.1121,
+      "longitude": -105.1918,
+      "foundedYear": 1978,
+      "numberOfStudents": 200,
+      "mascot": "N/A",
+      "mainColor": [0.70, 0.70, 0.70],
+      "division": "N/A",
+      "degrees": [],
+      "tribal": true
+    },
+    {
+      "name": "Little Big Horn College",
+      "acronym": "LBHC",
+      "city": "Crow Agency",
+      "latitude": 45.6062,
+      "longitude": -107.4515,
+      "foundedYear": 1980,
+      "numberOfStudents": 200,
+      "mascot": "N/A",
+      "mainColor": [0.80, 0.80, 0.80],
+      "division": "N/A",
+      "degrees": [],
+      "tribal": true
+    },
+    {
+      "name": "Salish Kootenai College",
+      "acronym": "SKC",
+      "city": "Pablo",
+      "latitude": 47.6160,
+      "longitude": -114.1234,
+      "foundedYear": 1977,
+      "numberOfStudents": 200,
+      "mascot": "N/A",
+      "mainColor": [0.90, 0.90, 0.90],
+      "division": "N/A",
+      "degrees": [],
+      "tribal": true
+    },
+    {
+      "name": "Stone Child College",
+      "acronym": "SCC",
+      "city": "Box Elder",
+      "latitude": 48.2893,
+      "longitude": -109.6884,
+      "foundedYear": 1984,
+      "numberOfStudents": 200,
+      "mascot": "N/A",
+      "mainColor": [0.70, 0.70, 0.70],
+      "division": "N/A",
+      "degrees": [],
+      "tribal": true
     }
   ]
 }
+

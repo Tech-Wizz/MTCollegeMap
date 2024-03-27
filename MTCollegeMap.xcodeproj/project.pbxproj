@@ -14,6 +14,7 @@
 		7F4498812BA791E200478E68 /* CollegeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4498802BA791E100478E68 /* CollegeData.swift */; };
 		7F4498832BA7921E00478E68 /* CollegeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4498822BA7921E00478E68 /* CollegeManager.swift */; };
 		7F4498882BA7A85A00478E68 /* college.json in Resources */ = {isa = PBXBuildFile; fileRef = 7F4498872BA7A85A00478E68 /* college.json */; };
+		7F5BFF6B2BB345800098A7BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F5BFF6A2BB345800098A7BA /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		7F4498802BA791E100478E68 /* CollegeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeData.swift; sourceTree = "<group>"; };
 		7F4498822BA7921E00478E68 /* CollegeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeManager.swift; sourceTree = "<group>"; };
 		7F4498872BA7A85A00478E68 /* college.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = college.json; sourceTree = "<group>"; };
+		7F5BFF6A2BB345800098A7BA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				7F4498842BA7922B00478E68 /* View */,
 				7F44987F2BA791C900478E68 /* Model */,
 				7F4498712BA7919B00478E68 /* MTCollegeMapApp.swift */,
+				7F5BFF6A2BB345800098A7BA /* LaunchScreen.storyboard */,
 				7F4498752BA7919C00478E68 /* Assets.xcassets */,
 				7F4498772BA7919C00478E68 /* Preview Content */,
 			);
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F4498882BA7A85A00478E68 /* college.json in Resources */,
+				7F5BFF6B2BB345800098A7BA /* LaunchScreen.storyboard in Resources */,
 				7F4498792BA7919C00478E68 /* Preview Assets.xcassets in Resources */,
 				7F4498762BA7919C00478E68 /* Assets.xcassets in Resources */,
 			);
